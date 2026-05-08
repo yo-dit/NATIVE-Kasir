@@ -1,0 +1,83 @@
+/* background full */
+body.auth{
+	height:100vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	background:linear-gradient(#FCDB97,#8F6640);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fcf5b6;
+    margin: 0;
+    padding: 20px;
+  
+}
+
+/* card login/register */
+.auth-box{
+	width:320px;
+	background:white;
+	padding:30px 25px;
+	border-radius:10px;
+	box-shadow:0 8px 20px rgba(0,0,0,0.2);
+	border-top:6px solid #77512d;
+}
+
+/* judul */
+.auth-box h2{
+	text-align:center;
+	margin-bottom:50px;
+}
+
+/* input */
+.auth-box input{
+	width:100%;
+	padding:10px;
+	margin-top:20px;
+	border:1px solid #ccc;
+	border-radius:6px;
+	outline:none;
+	transition:0.2s;
+}
+
+.auth-box input:focus{
+	border-color:#77512d;
+	box-shadow:0 0 4px rgba(200,173,85,0.5);
+}
+
+/* tombol */
+.auth-box button{
+	width:100%;
+	padding:10px;
+	margin-top:15px;
+	background:#77512d;
+	border:none;
+	border-radius:6px;
+	color:white;
+	font-weight:bold;
+	cursor:pointer;
+	transition:0.2s;
+}
+
+.auth-box button:hover{
+	background:#a57c56;
+}
+
+/* teks bawah */
+.auth-text{
+	text-align:center;
+	margin-top:75px;
+	font-size:13px;
+}
+
+.auth-text a{
+	color:#97823C;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.auth-text a:hover{
+	color:#C8AD55;
+}	

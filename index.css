@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background:linear-gradient(#ffe4bb,#e4b861);
+}
+
+/* Judul */
+.header {
+    text-align: center;
+    color: #776746;
+    margin-bottom: 20px;
+}
+
+/* Tabel */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(71, 57, 49, 0.904);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    color:#ffffff;
+
+}
+
+/* Header tabel */
+th {
+    background-color: #ffc933;
+    color: rgb(66, 56, 47);
+    padding: 6px;
+    text-align: center;
+    font-size: 18px;
+}
+
+/* Isi tabel */
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #2e2725;
+    font-size: 18px;
+}
+
+/* Hover row */
+tr:hover {
+    background-color: #0000002a;
+}
+
+/* Nomor kolom */
+td:first-child {
+    font-weight: bold;
+}
+
+/* Gambar produk */
+.img-produk {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* Tombol */
+a {
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.btn-edit,
+.btn-delete {
+    display: inline-block;
+    width: 80px;
+    font-size: 20px;
+    text-align: center;
+    padding: 6px 0;
+    border-radius: 6px;
+    color: white;
+}
+
+.btn-edit {
+    background-color: #ffc400;
+}
+
+.btn-delete {
+    background-color: #f86b1a;
+}
+
+/* Hover tombol */
+a:hover {
+    opacity: 0.8;
+}
+
+/* Tombol tambah */
+.btn-add {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #302626;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.logout {
+    
+    float: right;
+    margin-top: 20px;
+    background-color: #302626;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}

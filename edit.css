@@ -1,0 +1,74 @@
+
+body{
+    font-family: Arial, sans-serif;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    
+    font-weight: bold;
+    color: rgb(77, 54, 39);
+    width: 150px;   /* biar sejajar semua */
+    font-size: 25px;
+}
+
+input {
+    width: 500px;
+    flex: 1;        /* input ngisi sisa ruang */
+    padding: 5px;
+}
+
+#tombol1{
+  background-color: #f3a600;  /* warna latar */
+  color: rgb(255, 255, 255);                /* warna teks */
+  padding: 3px 10px;          /* jarak dalam tombol */
+  /*border: none;                 hilangkan border default */
+  border-radius: 2px;          /* sudut bulat */
+  font-size: 20px;             /* ukuran teks */
+  font-weight: bold;
+  cursor: pointer;             /* kursor berubah pointer */
+  transition: 0.3s;            /* transisi smooth */
+}
+
+#tombol1:hover,.btn-home:hover{
+    background-color: #77512d;  /* warna berubah saat hover */
+    color: rgb(255, 255, 255);
+    transform: scale(1.05);     /* tombol sedikit membesar */
+}
+
+.btn-home {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 6px 12px;
+    background-color: rgb(255, 204, 137);
+    color: rgb(85, 71, 59);
+    text-decoration: none; /* hilangin garis bawah */
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#drop-area {
+    width: 260px;
+    padding: 15px;
+    border: 2px dashed #555;
+    border-radius: 8px;
+    text-align: center;
+    cursor: pointer;
+    background: rgba(255,255,255,0.4);
+}
+
+#drop-area.dragover {
+    background: rgba(0,0,0,0.1);
+}
