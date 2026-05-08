@@ -15,14 +15,18 @@ $kembalian = $_GET['kembalian'];
 	<title>Struk Pembayaran</title>
 	<style>
 		body {
+			display: flex;
+			justify-content: center;
+			align-items: center;
 			font-family: Arial;
 			padding: 30px;
 		}
 
 		.struk {
 			width: 300px;
-			border: 1px solid black;
+			border: 1px solid #575757;
 			padding: 20px;
+			border-radius: 4px;
 		}
 
 		.judul {
@@ -41,6 +45,22 @@ $kembalian = $_GET['kembalian'];
 			border-top: 1px dashed black;
 			padding-top: 10px;
 			font-weight: bold;
+		}
+
+		.btn-kembali {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			text-decoration: none;
+			width:100%;
+			padding:10px;
+			margin-left:-10px;
+			margin-bottom:-10px;
+			font-size:16px;
+			background: #949494;
+			color:white;
+			border:none;
+			cursor:pointer;
 		}
 	</style>
 </head>
@@ -79,12 +99,12 @@ $kembalian = $_GET['kembalian'];
 		</div>
 
 		<br>
-
-		Terima Kasih 🙏
-
+		<div style="text-align:center;">
+		Arigatou Gozaimasu :3
+		</div>
 		<br><br>
 
-		<a href="user.php">Kembali</a>
+		<a class="btn-kembali" href="user.php">Kembali</a>
 
 	</div>
 

@@ -7,7 +7,7 @@
 body{
 	padding:20px;
 	font-family:Arial, sans-serif;
-	background:#f5f5f5;
+	background:linear-gradient(#FCDB97,#8F6640);
 }
 
 /* layout utama */
@@ -19,7 +19,7 @@ body{
 /* menu kiri */
 .menu{
 	width:70%;
-	background:white;
+	background:#ffffff9a;
 	padding:20px;
 	border-radius:6px;
 	box-shadow:0 2px 5px rgba(0,0,0,0.1);
@@ -50,7 +50,7 @@ body{
 /* gambar makanan */
 .card img{
 	width:100%;
-	height:120px;
+	height:200px;
 	object-fit:cover;
 	border-radius:4px;
 	margin-bottom:10px;
@@ -84,7 +84,7 @@ body{
 /* pesanan kanan */
 .pesanan{
 	width:30%;
-	background:white;
+	background:#ffffff9a;
 	padding:20px;
 	border-radius:6px;
 	box-shadow:0 2px 5px rgba(0,0,0,0.1);
@@ -100,6 +100,10 @@ body{
 
 /* item pesanan */
 .list div{
+	background:white;
+	border-radius:4px;
+	padding:8px;
+	font-weight:bold;
 	display:flex;
 	justify-content:space-between;
 	margin-bottom:6px;
@@ -138,7 +142,7 @@ body{
 	width:100%;
 	padding:12px;
 	font-size:16px;
-	background:#C8AD55;
+	background:#8F6640;
 	color:white;
 	border:none;
 	cursor:pointer;
@@ -146,7 +150,7 @@ body{
 }
 
 .pay:hover{
-	background:#97823c;
+	background:#cf9d6f;
 }
 
 
@@ -179,7 +183,7 @@ body{
 	width:100%;
 	padding:12px;
 	font-size:16px;
-	background:#C8AD55;
+	background:#8F6640;
 	color:white;
 	border:none;
 	cursor:pointer;
@@ -187,7 +191,7 @@ body{
 }
 
 .enter-pesanan:hover{
-	background:#97823c;
+	background:#cf9d6f;
 }
 
 .logout {
