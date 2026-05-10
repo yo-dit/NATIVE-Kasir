@@ -38,6 +38,15 @@ function delete($id){
         return 0;
     }
 
+    // ambil nama gambar dulu
+    $result = mysqli_query($conn, "SELECT image FROM kasir WHERE id = $id");
+    $row = mysqli_fetch_assoc($result);
+
+    // hapus file gambar
+    if ($row && $row['image'] && file_exists('img/' . $row['image'])) {
+        unlink('img/' . $row['image']);
+    }
+
     mysqli_query($conn, "DELETE FROM items WHERE id = $id");
     return mysqli_affected_rows($conn);
 }
